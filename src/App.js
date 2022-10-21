@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import About from './components/about/about.jsx'
 import './App.css';
-import Landing from '../src/components/landing/landing'
+
 
 function App() {
+
   return (
     <div className="App">
-      <Landing />
+      <Routes>
+        <Route exact path='/' element={<About />} />
+      </Routes>
     </div>
   );
 }
