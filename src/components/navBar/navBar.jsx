@@ -13,12 +13,13 @@ import arrow from './images/arrow.png'
 const navBar = () => {
 
   return (
-    <div className={s.container}>
+    <nav className={s.container}>
 
       <div className={s.paths}>
-      <Link to='/' className={s.links}><div>Sobre mi</div></Link>
-      <Link to='/' className={s.links}><div>Proyectos</div></Link>
-      <Link to='/' className={s.links}><div>Contacto</div></Link>
+      <div>Sobre mi</div>
+      <div>Tecnologias</div>
+      <div>Proyectos</div>
+      <div>Contacto</div>
       </div>
 
       <div className={s.options}>
@@ -34,7 +35,7 @@ const navBar = () => {
 
       </div>
 
-    </div>
+    </nav>
   )
 }
 

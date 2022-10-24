@@ -1,11 +1,12 @@
 .container {
-	background-color: #545252;
+	background-color: #545252ad;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	height: 10%;
+	height: 8vh;
+	position: sticky;
 	
 	.paths {
 		width: 60vw;
@@ -55,8 +56,8 @@
 				filter: invert(0.8);
 				margin-left: 5px;
 				margin-right: 5px;
-				max-width: 30px;
-				max-height: 30px;
+				max-width: 20px;
+				max-height: 20px;
 				transform: rotate(-90deg);
 				object-fit: cover;
 				transition: 0.5s;
@@ -79,10 +80,11 @@
 			transition: 0.5s;
 			img{
 				margin-top: 2px;
-				max-width: 50px;
-				max-height: 50px;
+				max-width: 35px;
+				max-height: 35px;
 				transform: rotate(-90deg);
 				transition: 1s;
+				object-fit: cover;
 			}
 			&:hover{
 				background-color: rgb(194, 194, 194, 0.98);

@@ -1,0 +1,15 @@
+.App{
+  // background-position: absolute;
+  background-image: url('./starBackground.jpg');
+  outline: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  nav{
+    position: fixed;
+  }
+}

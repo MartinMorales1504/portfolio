@@ -7,15 +7,24 @@ const About = () => {
 
   return (
     <>
-    <NavBar />
       <div className={s.container}>
-        <motion.div className={s.joinButton}>
-          <h2
-            animate={{ fontSize: 40, color: '#ff2994' }}
-          >
-            Hola como estas
-          </h2>
-        </motion.div>
+        {/*NAME*/}
+        <div className={s.name}>
+          <h1>Martin Morales</h1>
+        </div>
+        {/*TITLE*/}
+        <div className={s.title}>
+          <h1>Sobre mi</h1>
+        </div>
+
+        {/*DESCRIPTION*/}
+        <div className={s.description}>
+        <div className={s.text}>
+            <h3>
+              Soy desarrollador Full Stack orientado a Front End y ocasionalmente diseño. Me gusta crear agradables, solidos y escalables productos frontend que cuenten con una gran experiencia de usuario.
+            </h3>
+          </div>
+        </div>
       </div>
     </>
   )
